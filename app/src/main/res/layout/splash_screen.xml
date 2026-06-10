@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/splash_Layout"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="20dp"
+    android:background="#6E9B7B">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:importantForAccessibility="no"
+        android:src="@drawable/camp" />
+
+
+    <TextView
+        android:id="@+id/txtFirst"
+        android:layout_width="match_parent"
+        android:layout_height="78dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="cursive"
+        android:text="@string/campsite_commander"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        tools:ignore="TextSizeCheck" />
+
+    <Button
+        android:id="@+id/btnWelcome"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="@string/welcome"
+        android:textStyle="italic"
+        android:background="#B9D2C2"
+        tools:ignore="VisualLintButtonSize" />
+
+    <Button
+        android:id="@+id/btnExitSplash"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="@string/next"
+        android:textStyle="italic"
+        android:background="#B9D2C2"
+        tools:ignore="VisualLintButtonSize" />
+
+
+</LinearLayout>

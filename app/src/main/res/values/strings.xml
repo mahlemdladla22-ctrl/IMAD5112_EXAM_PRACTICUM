@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">IMAD5112_EXAM_PRACTICUM</string>
+    <string name="campsite_commander">Campsite Commander</string>
+    <string name="add_gear">Add Gear:</string>
+    <string name="detailed_gear_list">Detailed gear list</string>
+    <string name="welcome">Welcome!</string>
+    <string name="the_total_gear">The Total Gear:</string>
+    <string name="enter_the_item_s_category">Enter the item\'s category</string>
+    <string name="the_total_items_packed">The Total Items Packed:</string>
+    <string name="calculate_total_items">Calculate Total Items</string>
+    <string name="enter_items_needed">Enter items needed</string>
+    <string name="gear_details">Gear Details:</string>
+    <string name="show_details">Show Details</string>
+    <string name="back_to_base">Back to Base</string>
+    <string name="next">Next</string>
+    <string name="save">Save</string>
+</resources>

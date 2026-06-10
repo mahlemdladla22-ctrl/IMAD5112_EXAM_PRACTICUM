@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible"
+    android:background="#6E9B7B">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:background="#6E9B7B"
+        >
+
+    <!-- Title -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/the_total_gear"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        />
+
+    <!-- Gear Spinner -->
+        <Spinner
+            android:id="@+id/spinnerGear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="#B9D2C2"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/editItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:autofillHints="Enter the amount of items needed"
+            android:background="#B9D2C2"
+            android:hint="@string/enter_items_needed"
+            android:inputType="number"
+            android:minHeight="48dp"
+            tools:ignore="DuplicateSpeakableTextCheck,VisualLintTextFieldSize" />
+
+       <EditText
+           android:id="@+id/editCategory"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="15dp"
+           android:autofillHints="Enter which category does the item belong to"
+           android:background="#B9D2C2"
+           android:hint="@string/enter_the_item_s_category"
+           android:inputType="text"
+           android:textSize="18sp"
+           android:padding="12dp"
+           />
+
+        <EditText
+            android:id="@+id/editQuantity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:autofillHints="Enter the amount of items needed"
+            android:background="#B9D2C2"
+            android:hint="@string/enter_items_needed"
+            android:inputType="number"
+            android:minHeight="48dp"
+            tools:ignore="VisualLintTextFieldSize" />
+
+        <!-- Gear/Save Button -->
+        <Button
+            android:id="@+id/btnAddGear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/add_gear"
+            android:textSize="18sp"
+            tools:ignore="VisualLintButtonSize" />
+
+        <!-- Total Items -->
+        <TextView
+            android:id="@+id/txtTotal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:text="@string/the_total_items_packed"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            />
+
+        <!-- Total Button -->
+        <Button
+            android:id="@+id/btnTotal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/calculate_total_items"
+            tools:ignore="VisualLintButtonSize" />
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/save"
+            tools:ignore="VisualLintButtonSize" />
+
+    </LinearLayout>
+</ScrollView>
